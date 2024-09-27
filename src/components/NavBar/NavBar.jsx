@@ -10,9 +10,9 @@ const NavBar = () => {
                 <img src={logo} alt="logo" width={30} />
             </div>
             <ul className="categorias">
-                <li>inicio</li>
-                <li>Cosas</li>
-                <li>Cosas 2</li>
+                <li className="boton">inicio</li>
+                <li className="boton">Cosas</li>
+                <li className="boton">Cosas 2</li>
             </ul>
             <Cartwidget />
         </nav>
